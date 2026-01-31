@@ -1,8 +1,22 @@
 # React + Vite
+Follow the following steps to set up the project .
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Create the Project (Vite)
+First, run the command to initialize your project with Vite. Type this and follow the prompts (select React and then JavaScript):
+    npm create vite@latest ecommerce
+   Note : In this  automatically it will install npm .  
 
-Currently, two official plugins are available:
+2. Enter the folder
+    cd ecommerce
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. Install All Tools
+   npm install axios react-router-dom styled-components react-icons react-slick slick-carousel @reduxjs/toolkit react-redux react-hook-form   
+
+4.Run command 
+   npm run dev
+
+
+5. link and port
+  In terminal , it gives the running link with port number ,open it and see .
+
+
